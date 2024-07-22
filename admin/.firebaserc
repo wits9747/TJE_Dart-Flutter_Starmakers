@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "dias-poram"
+  },
+  "targets": {
+    "dias-poram": {
+      "hosting": {
+        "lamatadmin": [
+          "diasporam-admin"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
