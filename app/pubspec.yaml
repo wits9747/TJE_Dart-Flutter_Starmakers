@@ -1,0 +1,220 @@
+name: lamatdating
+description: Lamat Dating App Flutter project.
+publish_to: "none"
+
+version: 7.0.4+26
+
+environment:
+  sdk: ">=3.0.2 <4.0.0"
+
+dependencies:
+  agora_rtc_engine: ^6.3.2
+  animations: ^2.0.7
+  async: ^2.11.0
+  audio_session: ^0.1.13
+  audioplayers: ^5.2.1
+  awesome_notifications:
+  better_open_file: ^3.6.4
+  bouncing_widget: ^2.0.0
+  cached_network_image: ^3.2.3
+  camera: ^0.11.0+1
+  camera_web: ^0.3.3
+  carousel_slider: ^4.1.1
+  chewie: ^1.5.0
+  circular_countdown_timer: ^0.2.1
+  cloud_firestore: ^4.8.0
+  cloud_functions: ^4.1.0
+  collection: ^1.17.1
+  contacts_service: ^0.6.3
+  crypto: ^3.0.2
+  custom_pop_up_menu: ^1.2.4
+  dependency_validator: ^3.0.0
+  detectable_text_field: ^3.0.2
+  device_info_plus: ^8.1.0
+  devicelocale: ^0.7.0
+  easy_localization:
+  emoji_picker_flutter: ^1.6.3
+  encrypt: ^5.0.1
+  expandable_text: ^2.3.0
+  extended_image: ^8.0.2
+  ffmpeg_kit_flutter_min_gpl: ^5.1.0
+  ffmpeg_wasm: ^1.0.1
+  file_picker: ^5.2.5
+  firebase_app_check: ^0.2.1+8
+  firebase_auth:
+  firebase_core:
+  import_sorter: ^4.6.0
+  firebase_messaging: ^14.6.0
+  firebase_storage: ^11.0.13
+  flutter:
+    sdk: flutter
+  flutter_branch_sdk: ^6.1.0
+  flutter_cache_manager: ^3.3.0
+  flutter_cached_pdfview: ^0.4.1
+  flutter_dotenv: ^5.1.0
+  flutter_downloader: ^1.11.1
+  flutter_easyloading: ^3.0.5
+  flutter_emoji: ^2.4.0
+  flutter_image_compress: ^2.1.0
+  flutter_linkify: ^6.0.0
+  flutter_local_notifications: ^16.1.0
+  flutter_localizations:
+    sdk: flutter
+  intl_translation:
+  flutter_native_splash: ^2.2.17
+  flutter_otp_text_field: ^1.1.1
+  flutter_paystack_plus:
+  flutter_riverpod: ^2.4.5
+  flutter_secure_storage: ^8.1.0
+  flutter_sound: ^9.2.13
+  flutter_stripe: ^10.2.0
+  flutter_svg: ^1.0.1
+  flutter_video_info: ^1.3.1
+  fluttertoast: ^8.0.9
+  font_awesome_flutter: ^10.6.0
+  fraction: ^5.0.1
+  gallery_saver: ^2.3.2
+  geolocator: ^10.1.0
+  giphy_get: ^3.1.0
+  google_fonts: ^4.0.4
+  google_mobile_ads: ^3.1.0
+  google_sign_in: ^6.2.1
+  google_translate: ^0.0.6
+  hive_flutter: ^1.1.0
+  holding_gesture: ^1.1.0
+  image: ^4.1.3
+  image_editor: ^1.0.2
+  image_editor_plus: ^1.0.4
+  image_picker: ^1.0.4
+  intl: ^0.18.0
+  jiffy: ^6.2.1
+  flutter_paypal:
+    path: "flutter_paypal-0.2.0"
+  link_preview_generator: ^1.2.0
+  local_auth: ^2.1.2
+  localstorage: ^4.0.0+1
+  location: ^5.0.0
+  logger: ^1.4.0
+  lottie: ^2.2.0
+  marquee: ^2.0.0
+  media_info: ^0.12.0+2
+  mime: ^1.0.1
+  ntp: ^2.0.0
+  oktoast: ^3.3.1
+  overlay_support: ^2.0.1
+  package_info_plus: ^3.0.3
+  path: ^1.8.3
+  path_provider: ^2.0.12
+  percent_indicator: ^4.2.2
+  permission_handler: ^11.0.1
+  photo_view: ^0.14.0
+  pip_view: ^0.9.6-nullsafety
+  purchases_flutter: ^5.3.0
+  qr_code_scanner: ^1.0.0
+  qr_flutter: ^4.0.0
+  receive_sharing_intent: 1.4.5
+  restart_app: ^1.1.2
+  rxdart: ^0.27.2
+  scoped_model: ^2.0.0-nullsafety.0
+  share: ^2.0.4
+  share_plus: ^6.0.0
+  shared_preferences: ^2.0.15
+  smooth_page_indicator: ^1.1.0
+  sms_autofill: ^2.2.0
+  social_media_recorder: ^1.1.1
+  stacked: ^3.2.5
+  swipe_cards: ^2.0.0+1
+  the_apple_sign_in: ^1.1.1
+  tuple: ^2.0.2
+  tutorial_coach_mark: ^1.2.4
+  universal_platform:
+  url_launcher: ^6.1.7
+  video_compress: ^3.1.2
+  video_editor: 2.4.0
+  video_player: ^2.5.1
+  video_thumbnail: ^0.5.3
+  visibility_detector: ^0.4.0+2
+  voice_message_package: ^2.0.0
+  vph_web_date_picker: ^0.0.5
+  wakelock: ^0.6.2
+  websafe_svg:
+  webview_flutter: ^4.2.2
+  wechat_assets_picker: ^8.0.0
+  file_saver: ^0.2.9
+  universal_html: ^2.2.4
+  webview_flutter_web: ^0.2.2+2
+  webview_flutter_platform_interface: ^2.10.0
+  flutter_html: ^3.0.0-beta.2
+  gif_view: ^0.4.3
+  redacted: ^1.0.11
+  inner_glow: ^1.0.0
+  http: any
+  http_client_helper: any
+  dio: any
+  just_audio: any
+  in_app_purchase: ^3.2.0
+  flutter_stripe_web: ^5.2.0
+
+dependency_overrides:
+  audioplayers_darwin: ^5.0.0
+  wechat_assets_picker: 9.0.0
+  http_client_helper: 3.0.0
+  http: ^1.0.0
+  intl: ^0.18.0
+  flutter_paystack: ^1.0.7
+  fading_edge_scrollview: ^4.1.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/logos/
+    - assets/json/
+    - assets/flags/
+    - assets/json/lottie/
+    - images/
+    - assets/
+    - icons/
+    - assets/icons/
+    - assets/translations/
+
+  fonts:
+    - family: SfUiBold
+      fonts:
+        - asset: font/SFUIDisplayBold.otf
+    - family: SfUiLight
+      fonts:
+        - asset: font/SFUIDisplayLight.otf
+    - family: SfUiMedium
+      fonts:
+        - asset: font/SFUIDisplayMedium.otf
+    - family: SfUiHeavy
+      fonts:
+        - asset: font/SFUIDisplayHeavy.otf
+    - family: SfUiRegular
+      fonts:
+        - asset: font/SFUIDisplayRegular.otf
+    - family: SfUiSemiBold
+      fonts:
+        - asset: font/SFUIDisplaySemibold.otf
+flutter_intl:
+  enabled: true
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: true
+
+  background_image: "assets/images/backgroud.png"
+  image: "assets/images/symbol-wh.png"
+
+  android_12:
+    color: "#6e3fff"
+    image: assets/images/full_logo_sq.png
+    image_dark: assets/images/full_logo_sq.png
