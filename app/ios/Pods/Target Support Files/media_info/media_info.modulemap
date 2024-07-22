@@ -1,0 +1,6 @@
+framework module media_info {
+  umbrella header "media_info-umbrella.h"
+
+  export *
+  module * { export * }
+}
